@@ -1,0 +1,24 @@
+---
+- myEmployee:
+  - name: sachin pashale
+  - address: shivaji nagar
+  - psno: 32423
+  - dept: 
+    - name: IT
+    - salary: 545845
+
+  - name: sachin pashale
+  - address: Navi Mumbai
+  - psno: 32423
+  - dept: 
+    - name: Operation
+    - salary: 23433
+
+  - name: santosh jagdale
+  - address: pune
+  - psno: 33243
+  - dept: 
+    - name: HR
+    - salary: 43334
+
+       

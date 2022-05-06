@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: want to install git
+   - apt: app
+   - state: present
+
+   - name: want to install vs code
+   - apt: app
+   - state: present

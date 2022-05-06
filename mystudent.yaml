@@ -1,0 +1,23 @@
+---
+- myStudents:
+- name: alok
+  phone: 45458445
+  address:
+   - doorno:  5
+   - street: 5
+   - pincode: 4545
+
+- name: aravind
+  phone: 5154545
+  adddress:  
+    - doorno:  5
+    - street: 5
+    - pincode: 4545
+
+- name: Janani
+  phone: 548454545
+  address: 
+    - doorno: 5
+    - street: 5
+    - pincode: 4545
+
