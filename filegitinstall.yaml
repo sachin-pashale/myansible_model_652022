@@ -3,6 +3,11 @@
   become: yes
   tasks:   
    - name: i want to install git
-     apt: 
+     yum: 
       name: git
       state: present
+
+  #  - name: i want to install git
+  #    apt: 
+  #     name: git
+  #     state: present
