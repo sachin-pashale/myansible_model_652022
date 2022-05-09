@@ -8,19 +8,22 @@
       name: apache2
       state: present
      when: ansible_os_family =="Debian"
+
    - name: i want to start webserver on ubuntu
      service: 
       name: apache2
       state: started
      when: ansible_os_family =="Debian"  
+
    - name: i want to install apache2 on linux
      yum: 
       name: httpd
       state: present
-     when: ansible_os_family =="Redhat"
+     when: ansible_os_family =="RedHat"
+
    - name: i want to start webserver on linux
      service: 
       name: httpd
       state: started
-     when: ansible_os_family =="Redhat"
+     when: ansible_os_family =="RedHat"
   
