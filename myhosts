@@ -11,5 +11,5 @@
 172.31.24.121
 
 [mywebserver:vars]
-mywebpackubuntu: apache2
-mywebpacklinux: httpd
+mywebpackubuntu= apache2
+mywebpacklinux= httpd
