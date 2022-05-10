@@ -11,7 +11,7 @@
 
    - name: i want to start webserver on ubuntu
      service: 
-      name: {{"mywebpackubuntu"}}
+      name: "{{mywebpackubuntu}}"
       state: started
      when: ansible_os_family =="Debian"  
 
