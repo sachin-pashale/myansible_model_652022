@@ -1,5 +1,15 @@
 [ubuntuserver]
 172.31.25.33
 172.31.31.211
+
 [linuxserver]
 172.31.24.121
+
+[mywebserver]
+172.31.25.33
+172.31.31.211
+172.31.24.121
+
+[mywebserver:vars]
+mywebpackubuntu: apache2
+mywebpacklinux: httpd
