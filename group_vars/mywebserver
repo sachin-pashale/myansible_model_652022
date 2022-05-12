@@ -1,3 +1,6 @@
 ---
 mywebpackubuntu: apache2
 mywebpacklinux: httpd
+
+myjavapackonubuntu: openjdk-8-jre
+myjavapackonlinux: java-1.8.0-openjdk

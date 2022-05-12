@@ -13,3 +13,6 @@
 [mywebserver:vars]
 mywebpackubuntu= apache2
 mywebpacklinux= httpd
+
+[linuxserver]
+mywebpacklinux= httpd
