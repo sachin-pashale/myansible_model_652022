@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.31.211
+- hosts: mywebserver
   become: yes
   tasks:
    - name: I want to execute linux command
