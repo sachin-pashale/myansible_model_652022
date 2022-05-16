@@ -11,8 +11,9 @@
     - name: install weget
       yum:
         name: wget
-        state: present
+        stateeeeeeeee: present
       tags: mywget
+      ignore-error: true
 
     - name: install tree
       yum:
