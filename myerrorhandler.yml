@@ -1,0 +1,16 @@
+---
+- hosts: 172.31.24.121
+  become: yes
+  tasks:
+   - name: install git
+     apt: 
+      name: git
+      stateeeeeeeeeeee: present
+     ignore-error: true
+
+   - name: install tree
+     apt: 
+      name: tree
+      state: present
+
+  
