@@ -13,7 +13,7 @@
         name: wget
         stateeeeeeeee: present
       tags: mywget
-      ignore-error: true
+      ignore_errors: true
 
     - name: install tree
       yum:
