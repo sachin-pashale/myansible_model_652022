@@ -1,22 +1,22 @@
 ---
-hosts: 172.31.24.121
-become: yes
-tasks:
- - name: install git
-   yum: 
-    name: git
-    state: present
-   tags: mygit
+- hosts: 172.31.24.121
+  become: yes
+  tasks:
+    - name: install git
+      yum: 
+        name: git
+        state: present
+      tags: mygit
    
- - name: install weget
-   yum:
-    name: wget
-    state: present
-   tags: mywget
+    - name: install weget
+      yum:
+        name: wget
+        state: present
+      tags: mywget
 
- - name: install tree
-   yum:
-    name: tree
-    state: present
-   tags: mytree
+    - name: install tree
+      yum:
+        name: tree
+        state: present
+      tags: mytree
    
