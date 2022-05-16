@@ -6,7 +6,6 @@
      apt: 
       name: git
       stateeeeeeeeeeee: present
-     ignore-error: true
 
    - name: install tree
      apt: 
