@@ -11,13 +11,13 @@
        msg: "{{myvariable}}"
 
    - name: install git
-     app: 
+     apt: 
       name: git
       state: present
      when: myvariable.stdout != "ip-172-31-24-121.ec2.internal"
 
    - name: install tree
-     app: 
+     apt: 
       name: tree
       state: present
      when: myvariable.stdout != "ip-172-31-24-121.ec2.internal"
