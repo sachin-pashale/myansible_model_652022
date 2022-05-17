@@ -3,9 +3,9 @@
   become: yes
   tasks:
    - include_tasks: myfiletask.yml
-
+   
    - name: install webserver
-     app:
+     apt:
       name: apache2
       state: present
 
