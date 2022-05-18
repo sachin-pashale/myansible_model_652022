@@ -1,2 +1,6 @@
 ---
-# tasks file for mywebrole
+# tasks file for mywebrole   
+   - name: i want to install git
+     yum: 
+      name: git
+      state: present
