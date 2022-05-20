@@ -1,0 +1,6 @@
+---
+- hosts: appserver
+  become: yes
+  gather_facts: yes
+  roles:
+   - { role: mytomcatrole, when: ansible_os_family== "Debian"   }

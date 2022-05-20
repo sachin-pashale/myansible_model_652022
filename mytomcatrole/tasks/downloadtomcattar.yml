@@ -1,0 +1,6 @@
+---
+- name: download tomcat tar 
+  get_url:
+    src: https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.20/bin/apache-tomcat-10.0.20.tar
+    dest: /home/ubuntu/apache-tomcat-10.0.20.tar
+    force_basic_auth: yes
