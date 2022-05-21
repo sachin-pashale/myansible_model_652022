@@ -1,6 +1,6 @@
 ---
 - name: deploy java sample application
   get_url:
-    url:  s3://lab6aproject/SampleWebApp.war
+    url:  https://lab6aproject.s3.amazonaws.com/SampleWebApp.war
     dest: /opt.tomcat/webapps/SampleWebApp.war
     force_basic_auth: yes
